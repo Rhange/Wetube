@@ -3,14 +3,9 @@ import morgan from "morgan";
 import helmet from "helmet";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
+import { userRouter } from "./router";
 
 const app = express();
-
-const PORT = 4000;
-
-//TODO Arrow function
-const handleListening = () =>
-  console.log(`Listening on: http://localhost:${PORT}`);
 
 //! Arrow function
 const handleHome = (req, res) => res.send("Hello from home.");
@@ -33,6 +28,6 @@ app.get("/", middleware, handleHome);
 
 app.get("/profile", handleProfile);
 
-app.listen(PORT, handleListening);
+app.use("/user", userRouter);
 
-//! node 실행 종료는 'ctrl + c'
+export default app;
