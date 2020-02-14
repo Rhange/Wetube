@@ -10,6 +10,9 @@ import routes from "./routes";
 
 const app = express();
 
+//? PUG
+app.set("view engine", "pug");
+
 //TODO middleware helmet, morgan, cookie-parser, body-parser(json, urlencoded)
 app.use(cookieParser());
 app.use(bodyParser.json());
