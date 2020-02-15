@@ -18,6 +18,7 @@ app.set("view engine", "pug");
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+//! if there is no 'bodyParse' you can't get req.body information.
 app.use(morgan("dev"));
 
 app.use(localsMiddleware); //! locals 위에 있는 것은 locals에 접근 X
