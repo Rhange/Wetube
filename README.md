@@ -1,3 +1,5 @@
+[![time tracker](https://wakatime.com/badge/github/Rhange/Wetube.svg)](https://wakatime.com/badge/github/Rhange/Wetube)
+
 # Wetube
 
  Cloning Youtube with Vanilla and nodeJS
