@@ -5,6 +5,10 @@
 # Wetube
 
  Cloning Youtube with Vanilla and nodeJS
+ 
+ This cloning project was progessed with NomadCoders Academy
+ 
+ [NomadCoders_Wetube](https://academy.nomadcoders.co/p/javascript-fullstack-from-zero-to-hero)
 
 ## Pages:
 
