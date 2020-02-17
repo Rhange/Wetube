@@ -1,4 +1,6 @@
+[![author](https://img.shields.io/badge/author-Rhange-f39c12.svg?style=flat-square)](https://rhange.tistory.com)
 [![time tracker](https://wakatime.com/badge/github/Rhange/Wetube.svg)](https://wakatime.com/badge/github/Rhange/Wetube)
+[![Build Status](https://travis-ci.com/Rhange/Wetube.svg?branch=master)](https://travis-ci.com/Rhange/Wetube)
 
 # Wetube
 
