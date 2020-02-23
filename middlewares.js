@@ -1,4 +1,7 @@
+import multer from "multer";
 import routes from "./routes";
+
+const multerVideo = multer({ dest: "videos/" });
 
 export const localsMiddleware = (req, res, next) => {
   //TODO res.locals.variables_name = "variables_value";
@@ -10,3 +13,5 @@ export const localsMiddleware = (req, res, next) => {
   };
   next(); //! middlewares are between codes so to next to the function.
 };
+
+export const uploadVideo = multerVideo.single("videoFile");
