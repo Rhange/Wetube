@@ -13,8 +13,11 @@ const app = express();
 
 //TODO middleware helmet, morgan, cookie-parser, body-parser(json, urlencoded)
 app.use(helmet());
+
 //? PUG
 app.set("view engine", "pug");
+
+app.use("/uploads", express.static("uploads"));
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
