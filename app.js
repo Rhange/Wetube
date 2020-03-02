@@ -11,10 +11,10 @@ import routes from "./routes";
 
 const app = express();
 
-//TODO middleware helmet, morgan, cookie-parser, body-parser(json, urlencoded)
+// TODO middleware helmet, morgan, cookie-parser, body-parser(json, urlencoded)
 app.use(helmet());
 
-//? PUG
+// ? PUG
 app.set("view engine", "pug");
 
 app.use("/uploads", express.static("uploads"));
