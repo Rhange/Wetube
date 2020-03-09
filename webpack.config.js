@@ -49,4 +49,7 @@ const config = {
   plugins: [new ExtractCSS("styles.css")]
 };
 
+// ! can't use this
+// export default config;
+// * do use this
 module.exports = config;
