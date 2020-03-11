@@ -13,9 +13,9 @@ export const postJoin = async (req, res, next) => {
     res.status(400);
     res.render("join", { pageTitle: "Join" });
   } else {
+    // TODO: Register User
     try {
-      // TODO: Register User
-      const user = await User.create({
+      const user = await User({
         name,
         email
       });
