@@ -17,5 +17,7 @@ passport.use(
   )
 );
 
+// TODO: Facebook authentication
+
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
