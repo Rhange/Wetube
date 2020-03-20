@@ -1,5 +1,6 @@
 import routes from "../routes";
 import Video from "../models/Video";
+import Comment from "../models/Comment";
 
 export const home = async (req, res) => {
   try {
@@ -141,7 +142,7 @@ export const postAddComment = async (req, res) => {
       text: comment,
       creator: user.id
     });
-    video.comment.push(newComment.id);
+    video.comments.push(newComment.id);
     video.save();
     res.status(200);
   } catch (error) {
