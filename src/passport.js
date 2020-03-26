@@ -11,7 +11,9 @@ passport.use(
     {
       clientID: process.env.GH_ID,
       clientSecret: process.env.GH_SECRET,
-      callbackURL: `http://localhost:${process.env.PORT}${routes.githubCallback}`
+      callbackURL: process.env.PRODUCTION
+        ? `https://aqueous-garden-97133.herokuapp.com${routes.githubCallback}`
+        : `http://localhost:${process.env.PORT}${routes.githubCallback}`
     },
     githubLoginCallback
   )
