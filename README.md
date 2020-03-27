@@ -30,6 +30,7 @@ Code Challenge: Delete comment
 - [x] 1. A user for own comments can see 'delete button' that activate with an API.
 - [x] 2. If user click a comment's delete button, the comment should be removed and a total comments number has to be changed.
 - Hint: .populate() & if statement in views
+- \*\*Problem: After create comment, li tag's id=comment.id is activated when refresh.
 - [x] 3. This challenge ask do you understand 'template', 'API', and can you modify comments?
 
 Authentication
