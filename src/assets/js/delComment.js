@@ -19,7 +19,7 @@ const sendDelComment = async targetLi => {
     url: `/api/${videoId}/comment/delete`,
     method: "POST",
     data: {
-      commentId: targetLi.className
+      commentId: targetLi.id
     }
   });
   if (response.status === 200) {
@@ -28,8 +28,8 @@ const sendDelComment = async targetLi => {
 };
 
 const handleClick = e => {
-  console.log(e.target);
-  console.log(e.target.parentNode);
+  // console.log(e.target);
+  // console.log(e.target.parentNode);
   const targetLi = e.target.parentNode;
   sendDelComment(targetLi);
 };
