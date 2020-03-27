@@ -31,3 +31,10 @@ Code Challenge: Delete comment
 - [x] 2. If user click a comment's delete button, the comment should be removed and a total comments number has to be changed.
 - Hint: .populate() & if statement in views
 - [x] 3. This challenge ask do you understand 'template', 'API', and can you modify comments?
+
+Authentication
+
+- [ ] Facebook Auth
+- [ ] Kakao Auth
+- [ ] Naver Auth
+- [ ] Google Auth
