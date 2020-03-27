@@ -10,16 +10,24 @@
  
  [NomadCoders_Wetube](https://academy.nomadcoders.co/p/javascript-fullstack-from-zero-to-hero)
 
-## Pages:
+## Pages
 
-- [ ] Home
+- [x] Home
 - [x] Join
 - [x] Login
 - [x] Search
-- [ ] User Detail
+- [x] User Detail
 - [x] Edit Profile
 - [x] Change Password
 - [x] Upload
-- [ ] Video Detail
+- [x] Video Detail
 - [x] Edit Video
+
+## TODOS
+
+Code Challenge: Delete comment
+- [ ] 1. A user for a comment can see delete button with an API.
+- [ ] 2. If delete the comment, comment has to be deleted and total comments number should be changed.
+- Hint: .populate() / if statement in views / 
+- [ ] 3. This challenge ask me do you understand 'template', 'API', and can you modify comments.
 
