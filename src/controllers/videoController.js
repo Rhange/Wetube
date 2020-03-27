@@ -51,12 +51,14 @@ export const videoDetail = async (req, res) => {
     params: { id }
   } = req;
 
-  console.log(req.user);
+  // console.log(req.user);
 
   try {
     const video = await Video.findById(id)
       .populate("creator")
       .populate("comments");
+
+    // console.log(video.comments);
     // console.log(String(video.comments[0].creator));
     res.render("videoDetail", { pageTitle: video.title, video });
   } catch (error) {
