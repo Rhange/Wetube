@@ -31,3 +31,8 @@ Code Challenge: Delete comment
 - Hint: .populate() / if statement in views / 
 - [ ] 3. This challenge ask me do you understand 'template', 'API', and can you modify comments.
 
+Authentication
+- [ ] Facebook Auth
+- [ ] Kakao Auth
+- [ ] Naver Auth
+- [ ] Google Auth
