@@ -12,7 +12,7 @@ passport.use(
       clientID: process.env.GH_ID,
       clientSecret: process.env.GH_SECRET,
       callbackURL: process.env.PRODUCTION
-        ? `https://wetube-rhange.herokuapp.com/${routes.githubCallback}`
+        ? `https://wetube-rhange.herokuapp.com${routes.githubCallback}`
         : `http://localhost:${process.env.PORT}${routes.githubCallback}`
     },
     githubLoginCallback
