@@ -4,11 +4,11 @@
 
 # Wetube
 
- Cloning Youtube with Vanilla and nodeJS
- 
- This cloning project was progressed with NomadCoders Academy
- 
- [NomadCoders_Wetube](https://academy.nomadcoders.co/p/javascript-fullstack-from-zero-to-hero)
+Cloning Youtube with Vanilla and nodeJS
+
+This cloning project was progressed with NomadCoders Academy
+
+[NomadCoders_Wetube](https://academy.nomadcoders.co/p/javascript-fullstack-from-zero-to-hero)
 
 ## Pages
 
@@ -26,8 +26,8 @@
 ## TODOS
 
 Code Challenge: Delete comment
-- [ ] 1. A user for a comment can see delete button with an API.
-- [ ] 2. If delete the comment, comment has to be deleted and total comments number should be changed.
-- Hint: .populate() / if statement in views / 
-- [ ] 3. This challenge ask me do you understand 'template', 'API', and can you modify comments.
 
+- [x] 1. A user for own comments can see 'delete button' that activate with an API.
+- [x] 2. If user click a comment's delete button, the comment should be removed and a total comments number has to be changed.
+- Hint: .populate() & if statement in views
+- [x] 3. This challenge ask do you understand 'template', 'API', and can you modify comments?
