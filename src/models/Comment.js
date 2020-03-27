@@ -5,6 +5,10 @@ const CommentSchema = new mongoose.Schema({
     type: String,
     required: "Text is required"
   },
+  delete: {
+    type: String,
+    required: "Delete is required"
+  },
   createdAt: {
     type: Date,
     default: Date.now
