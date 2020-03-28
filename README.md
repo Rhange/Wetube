@@ -35,7 +35,7 @@ Code Challenge: Delete comment
 
 Authentication
 
-- [ ] Facebook Auth
+- [x] Facebook Auth
 - [ ] Kakao Auth
 - [ ] Naver Auth
 - [ ] Google Auth

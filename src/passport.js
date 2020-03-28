@@ -28,7 +28,9 @@ passport.use(
     {
       clientID: process.env.FB_ID,
       clientSecret: process.env.FB_SECRET,
-      callbackURL: `https://de290585.ngrok.io${routes.facebookCallback}`,
+      callbackURL: process.env.PRODUCTION
+        ? `https://wetube-rhange.herokuapp.com${routes.githubCallback}`
+        : `http://localhost:${process.env.PORT}${routes.githubCallback}`,
       profileFields: ["id", "displayName", "photos", "email"],
       scope: ["public_profile", "email"]
     },
