@@ -10,6 +10,8 @@ This cloning project was progressed with NomadCoders Academy
 
 [NomadCoders_Wetube](https://academy.nomadcoders.co/p/javascript-fullstack-from-zero-to-hero)
 
+[Result](https://wetube-rhange.herokuapp.com)
+
 ## Pages
 
 - [x] Home
