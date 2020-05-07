@@ -1,7 +1,7 @@
 {
   "name": "wetube",
   "version": "1.0.0",
-  "description": "Cloning Yotube with Vanilla and NodeJS",
+  "description": "Cloning Youtube with Vanilla and NodeJS",
   "main": "index.js",
   "author": "Jinsu Son",
   "dependencies": {
